@@ -1,5 +1,5 @@
 package com.company;
 
 public interface HavingSuperAbility {
-    void applySuperAbility(String superAbilityType);
+  abstract void applySuperAbility(String superAbilityType);
 }
