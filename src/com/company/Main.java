@@ -8,6 +8,7 @@ public class Main {
         int i=0;
         for (HeroesAbility ability: HeroesAbility.values() ) {
               hero[i].applySuperAbility(ability.toString());
+              i++;
         }
 
 
