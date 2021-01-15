@@ -5,6 +5,5 @@ public abstract class Hero implements HavingSuperAbility{
     int damage;
     String typeOfSuperAbility;
 
-    @Override
-    public abstract void applySuperAbility(String superAbilityType);
+
 }

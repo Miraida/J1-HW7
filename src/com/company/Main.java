@@ -5,10 +5,12 @@ public class Main {
     public static void main(String[] args) {
 
         Hero[] hero = {new Magic(),new Medic(),new Warrior()};
-        String[] heroesAbility = {"MAGICAL DAMAGE","HEALED ABILITY","CRITICAL DAMAGE"};
-        for (int i = 0; i <hero.length ; i++) {
-            hero[i].applySuperAbility(heroesAbility[i]);
+        int i=0;
+        for (HeroesAbility ability: HeroesAbility.values() ) {
+              hero[i].applySuperAbility(ability.toString());
         }
+
+
 
 
     }
